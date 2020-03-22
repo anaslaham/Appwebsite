@@ -1,6 +1,8 @@
 body{
-  padding-left: 0px;
-  padding-right: 0px;
+  width: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
 }
 .wellcome {
   background-color: #4a47a3;
