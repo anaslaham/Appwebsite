@@ -1,0 +1,167 @@
+body{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.wellcome {
+  background-color: #4a47a3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.navcustom {
+  background-color: #413c69;
+}
+
+.title {
+  margin-left: 30px;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.text {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 2rem;
+}
+@media (min-width:1000px) {
+  .appimg {
+    position: relative;
+    left: 25%;
+    top: 20px;
+    transform: rotate(-5deg);
+  }
+}
+
+.appimg {
+  padding-top: 20px;
+  width: 350px;
+  height: auto;
+}
+
+@media (max-width:950px) {
+.appimg{
+position: relative;
+left: 25%;
+padding-top: 30px;
+
+}
+.title{
+  text-align: center;
+}
+}
+.button {
+  background-color: #413c69;
+  font-family: 'Baloo Chettan 2', cursive;
+  position: relative;
+  left: 50px;
+  color: #ffffff;
+  border-width: medium;
+}
+.buttone {
+  background-color: #413c69;
+  font-family: 'Baloo Chettan 2', cursive;
+  color: #ffffff;
+  border-width: medium;
+  margin-left: 50px;
+}
+.buttons{
+  text-align:center;
+}
+.navbaritem {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 1.2rem;
+}
+
+.fimg {
+  width: 100px;
+  padding-top: 100px;
+}
+
+.center {
+  text-align: center;
+}
+
+.userrev {
+  background-color: #4a47a3;
+}
+
+.paddingrev {
+  padding: 7% 15%;
+}
+
+.press {
+  margin-top: 20px;
+  margin-right: 10px
+}
+
+.carousel-item {
+  padding: 10px;
+}
+
+.Pricing {
+  padding: 7% 15%;
+}
+
+.Pricingh {
+  padding: 8% 15%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #0000000;
+}
+
+.buttonp {
+  background-color: #413c69;
+  font-family: 'Baloo Chettan 2', cursive;
+  color: #ffffff;
+  border-width: medium;
+}
+
+.cards {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cardh {
+  background-color: #413c69;
+  color: #ffffff;
+}
+
+.cardcus {
+  outline-color: #413c69;
+  border-width: medium;
+}
+
+.features {
+  padding-top: 10%;
+  position: relative;
+  bottom: 150px;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.prices {
+  font-weight: bolder;
+  font-family: 'Baloo Chettan 2', cursive;
+  color: #413c69;
+  font-size: 4rem;
+}
+
+.rem{
+text-align: center;
+padding-left: 20px;
+padding-right: 20px;
+}
+.Socialm{
+  padding-top: 100px;
+  text-align: center;
+}
+.simg{
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
