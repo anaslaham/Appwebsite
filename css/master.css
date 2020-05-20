@@ -1,9 +1,10 @@
-body{
+body {
   width: 100%;
-     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
+
 .wellcome {
   background-color: #4a47a3;
   padding-top: 100px;
@@ -19,7 +20,6 @@ body{
   color: #ffffff;
   font-size: 4rem;
 }
-
 .text {
   margin-top: 30px;
   margin-left: 30px;
@@ -28,6 +28,7 @@ body{
   font-family: 'Baloo Chettan 2', cursive;
   font-size: 2rem;
 }
+
 @media (min-width:1000px) {
   .appimg {
     position: relative;
@@ -36,31 +37,37 @@ body{
     transform: rotate(-5deg);
   }
 }
-.container{
+
+.container {
   text-align: center;
 }
+
 .appimg {
   padding-top: 20px;
-  width: 350px;
+  width: 500px;
   height: auto;
 }
 
 @media (max-width:950px) {
-.appimg{
-margin-top: 30px;
+  .appimg {
+    margin-top: 30px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .button {
+    align-self: center;
+    margin-left: 0px;
+  }
+
+  .text {
+    text-align: center;
+  }
 }
-.title{
-  text-align: center;
-  font-size: 2.5rem;
-}
-.button {
-align-self: center;
-  margin-left: 0px;
-}
-.text{
-  text-align: center;
-}
-}
+
 .button {
   background-color: #413c69;
   font-family: 'Baloo Chettan 2', cursive;
@@ -69,6 +76,7 @@ align-self: center;
   margin-top: 10px;
   border-width: medium;
 }
+
 .buttone {
   background-color: #413c69;
   font-family: 'Baloo Chettan 2', cursive;
@@ -77,9 +85,11 @@ align-self: center;
   margin-left: 50px;
   margin-top: 20px;
 }
-.buttons{
-  text-align:center;
+
+.buttons {
+  text-align: center;
 }
+
 .navbaritem {
   padding-left: 20px;
   padding-right: 20px;
@@ -162,16 +172,18 @@ align-self: center;
   font-size: 4rem;
 }
 
-.rem{
-text-align: center;
-padding-left: 20px;
-padding-right: 20px;
+.rem {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.Socialm{
+
+.Socialm {
   padding-top: 100px;
   text-align: center;
 }
-.simg{
+
+.simg {
   margin-right: 10px;
   margin-bottom: 20px;
 }
